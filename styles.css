@@ -1,0 +1,133 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+body{
+    text-align: center;
+    margin: 0;
+    font-family: 'Original Surfer', cursive;
+    text-shadow: 0px 0px 1px black;
+    background-color: #8ECAE6;
+}
+.invitation{
+    background-image: url("images/muelle.jpg");
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0px;
+}
+.invitation-text{
+    background-color:#219EBC;
+    color: #8ECAE6;
+    margin: 0 auto 10px;
+    width: 400px;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+#invitation-text-title{
+    width: 260px;
+    background-color: #023047;
+    border: 4px solid #FB8500;
+}
+.invitation:hover{
+    background-image: url("https://media.giphy.com/media/sfjfPOe8DKptm/giphy.gif")
+}
+.activities-img{
+    width: 153px;
+    height: 153px;
+    border-radius: 50%;
+    margin: 10px;
+    border: 2px solid #023047
+}
+.activities{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #219EBC;
+    margin-bottom: 0;
+    
+}
+.activities-title{
+    color: #FB8500;
+    background-color:#023047;
+    margin: 0px 1px;
+    padding: 3px;
+}
+.activities-text{
+    color: 023047;
+    margin: 7px 18px;
+}
+.hotel{
+    margin: 0px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: #FB8500;
+    
+}
+.hotel-text{
+    font-family: 'Cabin', sans-serif;
+}
+#hotel-title{
+    background-color: #FFB703;
+    display: block;
+    width: 300px;
+    margin: 0px auto;
+    padding: 5px;
+    color: #023047;
+}
+.hotel-amenities{
+    color:#023047;
+    margin: 0px;
+}
+
+.hotel-img{
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    margin: 0px auto;
+    
+}
+#pool, #room{
+    border-radius: 5px;
+}
+#fabuloso{
+    background-color: #FFB703;
+    display: block;
+    width: 600px;
+    margin: 0px auto;
+    padding: 5px;
+    color: #023047;   
+    border-radius: 10px;
+    text-shadow: 1px 0px 1px black;
+    font-size: 40px;
+
+}
+ul{
+    border: 2px dotted #023047;
+    padding: 10px 1px;
+
+}
+#hotel-logo{
+    width: 225px;
+    height: 225px;
+    margin: 0px;
+    border-radius: 20px;
+    padding: 0px;
+}
+.reservation{
+    background-color: #219EBC;
+    display: flex;
+    width: 68%;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+    border-radius: 20px;
+}
